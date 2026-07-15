@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+pydantic==2.9.0
+python-dotenv==1.0.1
+
+# LLM + Embeddings
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-groq==0.2.0
+
+# Graph store
+neo4j==5.25.0
+
+# Vector store
+sqlalchemy==2.0.35
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+pgvector==0.3.5
+
+# Document processing
+pymupdf==1.24.10
+
+# Evaluation
+requests==2.32.0

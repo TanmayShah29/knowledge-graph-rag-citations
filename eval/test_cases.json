@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What company did Steve Jobs work at before founding Apple?",
+    "expected_path": ["Steve Jobs", "Atari"],
+    "expected_keywords": ["Atari", "technician"],
+    "expected_answer": "Steve Jobs worked at Atari before founding Apple"
+  },
+  {
+    "question": "Who is the current CEO of the company that Bill Gates co-founded?",
+    "expected_path": ["Bill Gates", "Microsoft", "Satya Nadella"],
+    "expected_keywords": ["Satya Nadella"],
+    "expected_answer": "Satya Nadella is the current CEO of Microsoft"
+  },
+  {
+    "question": "What company acquired GitHub, and who was CEO at the time of acquisition?",
+    "expected_path": ["GitHub", "Microsoft", "Satya Nadella"],
+    "expected_keywords": ["Microsoft", "Satya Nadella"],
+    "expected_answer": "Microsoft acquired GitHub under CEO Satya Nadella"
+  },
+  {
+    "question": "Before founding Tesla, what company did its CEO co-found that was later acquired by eBay?",
+    "expected_path": ["Elon Musk", "Tesla", "PayPal", "eBay"],
+    "expected_keywords": ["PayPal", "eBay"],
+    "expected_answer": "Elon Musk co-founded PayPal which was acquired by eBay"
+  },
+  {
+    "question": "Who succeeded Jeff Bezos as CEO of Amazon, and what cloud platform did they lead before becoming CEO?",
+    "expected_path": ["Jeff Bezos", "Amazon", "Andy Jassy", "AWS"],
+    "expected_keywords": ["Andy Jassy", "AWS", "Amazon Web Services"],
+    "expected_answer": "Andy Jassy succeeded Bezos and previously led AWS"
+  },
+  {
+    "question": "What university did Larry Page and Sergey Brin attend, and what famous social network was also started by students there?",
+    "expected_path": ["Larry Page", "Sergey Brin", "Stanford University", "Mark Zuckerberg", "Harvard"],
+    "expected_keywords": ["Stanford", "Harvard", "Facebook"],
+    "expected_answer": "Page and Brin attended Stanford; Zuckerberg started Facebook at Harvard"
+  },
+  {
+    "question": "Who was the COO of Meta Platforms before 2022, and what company did they work at before that?",
+    "expected_path": ["Sheryl Sandberg", "Meta Platforms", "Google"],
+    "expected_keywords": ["Sheryl Sandberg", "Google"],
+    "expected_answer": "Sheryl Sandberg was COO of Meta, previously worked at Google"
+  },
+  {
+    "question": "Which CEO left a hedge fund to start their company, and what major grocery chain did that company later acquire?",
+    "expected_path": ["Jeff Bezos", "Amazon", "Whole Foods Market"],
+    "expected_keywords": ["Jeff Bezos", "Whole Foods"],
+    "expected_answer": "Jeff Bezos left D.E. Shaw to start Amazon, which acquired Whole Foods"
+  },
+  {
+    "question": "What operating system was Google's first major mobile product based on, and who originally developed it?",
+    "expected_path": ["Google", "Android", "Android Inc."],
+    "expected_keywords": ["Android", "Android Inc."],
+    "expected_answer": "Android was originally developed by Android Inc., acquired by Google"
+  },
+  {
+    "question": "Who founded Microsoft and what happened to their first operating system that became the basis for MS-DOS?",
+    "expected_path": ["Bill Gates", "Paul Allen", "Microsoft", "QDOS", "MS-DOS"],
+    "expected_keywords": ["QDOS", "MS-DOS", "Seattle Computer Products"],
+    "expected_answer": "Gates and Allen bought QDOS and renamed it MS-DOS"
+  },
+  {
+    "question": "What is the connection between SpaceX and Tesla in terms of their leadership?",
+    "expected_path": ["SpaceX", "Elon Musk", "Tesla"],
+    "expected_keywords": ["Elon Musk", "CEO", "founder"],
+    "expected_answer": "Elon Musk is CEO of both Tesla and founder of SpaceX"
+  },
+  {
+    "question": "Which tech company's CTO previously led the development of their virtual reality hardware, and what was the company's original name?",
+    "expected_path": ["Andrew Bosworth", "Meta Platforms", "Facebook"],
+    "expected_keywords": ["Andrew Bosworth", "Meta", "Facebook"],
+    "expected_answer": "Andrew Bosworth leads VR at Meta, formerly Facebook"
+  },
+  {
+    "question": "What did Sundar Pichai lead before becoming CEO of Google, and what company owns Google?",
+    "expected_path": ["Sundar Pichai", "Google", "Alphabet Inc."],
+    "expected_keywords": ["Chrome", "Alphabet"],
+    "expected_answer": "Pichai led Chrome development; Google is owned by Alphabet"
+  },
+  {
+    "question": "Who was assigned to show Larry Page around Stanford, and what search engine did they build together?",
+    "expected_path": ["Sergey Brin", "Larry Page", "Google"],
+    "expected_keywords": ["Brin", "Google", "search engine"],
+    "expected_answer": "Brin showed Page around Stanford, and they built Google together"
+  }
+]
