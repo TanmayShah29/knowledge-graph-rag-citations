@@ -8,3 +8,7 @@ __pycache__/
 dist/
 build/
 *.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
